@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur (15px);
+  background-color: rgba(255, 255, 255, 0.603);
+  z-index: 111;
+}
+
+header nav {
+  width: 100%;
+  position: sticky;
+  z-index: 111;
+}
+
+header nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .container .menu {
+  display: block;
+}
+
+ header nav .container .menu2 {
+  display: none;
+} 
+
+header nav .container .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav .container .left a {
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+header nav .container .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav .container .right:hover a {
+  color: #aaa;
+}
+
+header nav .container .right a {
+  color: #000;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav .container .right a:hover {
+  color: black;
+}
+
+header nav .container .right a:nth-child(4) {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.page1 {
+  background: url(/backgroun6.jpg);
+  width: 100%;
+}
+
+.page1 .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page1 .container .op {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+  gap: 20px;
+}
+
+.page1 .container .op h1 {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.page1 .container .op p {
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.page1 .container .top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 50px;
+}
+
+.page1 .container .top .card {
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.page1 .container .top .card a {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.page1 .container .top .card img {
+  width: 230px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: rgb(70, 66, 66);
+  color: #fff;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+footer .container span a {
+  color: yellow;
+}
